@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color: #3b141c;
+    --subBtnColor: #f3961c;
+    --textColor: #ffffff;
+    --type-text: "Courier New", Courier, monospace;
+    --text-color: #333;
+    --type-text-sub: "Kaushan Script", cursive;
+    --anch-max: 1300px, margin: 0 auto;
+    --btn-form: border-radius: 50px;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--textColor);
+    font-family: var(--type-text);
+}
+
+a{
+    color: var(--textColor);
+    text-decoration: none;
+}
+
+.cabecera{
+    dispay: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coffee1{
+    font-family: var(--type-text);
+    font-size: 1.5rem;
+    color: var(--textColor);
+    text-decoration: none;
+}
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-family: var(--type-text);
+    font-size: 1rem;
+    text-decoration: none;
+}
+.navbar{
+    background-color: var(--background-color);
+    color: var(--textColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: var(--type-text-sub);
+}
+
+.bienvenue-section ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-family: var(--type-text-sub);
+}
